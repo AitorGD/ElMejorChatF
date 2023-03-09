@@ -1,0 +1,7 @@
+{
+  "name": "ElMejorChat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
