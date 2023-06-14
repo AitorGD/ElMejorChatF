@@ -1,0 +1,60 @@
+ion-item.login{
+    width:100%;
+    
+    padding-left: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(7, 185, 255, 0.753),
+             0 0  0 2px rgb(6, 155, 254),
+             0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+ion-item{
+    --background: transparent;
+}
+button.goBack{
+    margin-left: auto;
+    width: 20px;
+    background: transparent;
+
+}
+input.image{
+    width: 20px;
+    height: 20px;
+}
+.enviar{
+    display: flexbox;
+    width: 100%;
+    bottom: 0;
+    --inner-padding-bottom: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(0, 76, 255, 0.753),
+             0 0  0 2px rgb(6, 155, 254),
+             0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+input.enviarIMG{
+    width: 40px;
+    height: 40px;
+
+}
+button.enviarBTN{
+    margin-top: 10px;
+    margin-left: auto;
+    --background: transparent;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+
+
+}
+input.enviarText{
+    height: 30px;
+    width: 95%;
+    margin-top: 15px;
+    border-radius: 16px;
+}
+// ion-item.container{
+//     overflow-y: scroll;
+//     margin-bottom: 4.5rem;
+//     margin-top: 0.3rem;
+// }
+

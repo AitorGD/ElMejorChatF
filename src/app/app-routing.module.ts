@@ -1,16 +1,12 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { LoginComponent } from './login/login.component';
+import { ChatComponent } from './chat/chat.component';
+import { CanActivateViaAuthGuard } from './canActivateViaAuthGuard';
 
 const routes: Routes = [
-  {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },
-  {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
+  {path: '', loadChildren: () => import('./login/login.module').then( m => m.LoginModule)},
+  {path: 'chat', loadChildren: () => import('./chat/chat.module').then( m => m.ChatModule)},
 ];
 
 @NgModule({

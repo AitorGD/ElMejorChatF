@@ -1,0 +1,20 @@
+
+<ion-header>
+  <ion-item class="login">
+    <ion-item>Chat works</ion-item>
+    <button ion-item type="button" class="goBack" (click)="goBack()">  
+      <input type="image" class="image" alt="Login" src="./../../assets/logout.png">
+    </button>
+  </ion-item>
+</ion-header>
+<ion-content><app-message></app-message></ion-content>
+
+
+
+<ion-item class="enviar">
+<input id="new-message" class="enviarText" #message (enter)="sendMessage(message.value); message.value='' " required/>
+
+<button ion-item type="button" class="enviarBTN" (click)="sendMessage(message.value); message.value='' ">
+  <input type="image" class="enviarIMG" alt="Login" src="./../../assets/enviar.png" >
+</button>
+</ion-item>

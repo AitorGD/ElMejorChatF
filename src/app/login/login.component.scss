@@ -1,0 +1,31 @@
+button {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #3891ff;
+    margin-left: 33%;
+    //margin-top: 10%;
+    height: 40px;
+    border-radius: 30px;
+    display: block;
+    width: 33%;
+  }
+ion-item.login{
+    width:100%;
+    background-color: transparent;
+    padding-left: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(255, 255, 255, 0.753),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+ion-item.formGroup{
+  display: block;
+
+}
+input{
+    margin-left: 33%;
+    width: 33%;
+    margin-top: 10px;
+}
+
